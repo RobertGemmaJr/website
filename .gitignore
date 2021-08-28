@@ -1,3 +1,6 @@
+# Gastby
 node_modules/
 .cache/
 public
+
+vscode/
