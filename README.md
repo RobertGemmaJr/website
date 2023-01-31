@@ -8,6 +8,16 @@ Learn more about [Remix Stacks](https://remix.run/stacks).
 npx create-remix@latest --template remix-run/blues-stack
 ```
 
+## TODO
+
+1. Install Chakra-UI
+2. Use Firebase instead of PostgreSQL (?)
+3. Delete FLY, use Firebase for deployment
+4. Adjust dockerfile accordingly
+5. Code formatting with ESlint and Prettier (Husky)
+6. Delete tailwind CSS
+7. Use Firebase auth for authentication for me
+
 ## What's in the stack
 
 - [Multi-region Fly app deployment](https://fly.io/docs/reference/scaling/) with [Docker](https://www.docker.com/)
