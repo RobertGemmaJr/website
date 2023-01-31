@@ -2,7 +2,7 @@
 /// <reference types="vite/client" />
 
 import react from "@vitejs/plugin-react";
-import { defineConfig } from "vitest/config";
+import { defineConfig } from "vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
@@ -15,7 +15,7 @@ export default defineConfig({
     watchExclude: [
       ".*\\/node_modules\\/.*",
       ".*\\/build\\/.*",
-      ".*\\/postgres-data\\/.*",
+      ".*\\/sandbox_data\\/.*",
     ],
   },
 });

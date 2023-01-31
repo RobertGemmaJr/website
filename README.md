@@ -4,7 +4,7 @@
 
 Learn more about [Remix Stacks](https://remix.run/stacks).
 
-```
+```sh
 npx create-remix@latest --template remix-run/blues-stack
 ```
 
@@ -85,7 +85,7 @@ The database seed script creates a new user with some data you can use to get st
 
 If you'd prefer not to use Docker, you can also use Fly's Wireguard VPN to connect to a development database (or even your production database). You can find the instructions to set up Wireguard [here](https://fly.io/docs/reference/private-networking/#install-your-wireguard-app), and the instructions for creating a development database [here](https://fly.io/docs/reference/postgres/).
 
-### Relevant code:
+### Relevant code
 
 This is a pretty simple note-taking app, but it's a good example of how you can build a full stack app with Prisma and Remix. The main functionality is creating users, logging in and out, and creating and deleting notes.
 
@@ -141,7 +141,7 @@ Prior to your first deployment, you'll need to do a few things:
 
   > **Note:** When creating the staging secret, you may get a warning from the Fly CLI that looks like this:
   >
-  > ```
+  > ```sh
   > WARN app flag 'web-0c9f-staging' does not match app name in config file 'web-0c9f'
   > ```
   >
