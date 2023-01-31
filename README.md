@@ -21,6 +21,7 @@ npx create-remix@latest --template remix-run/blues-stack
 9. Uninstall `bcryptjs`
 10. Install `framer-motion`
 11. Uninstall `express`?
+12. Split prisma setup (generate, migrate, seed) into different commands
 
 ## What's in the stack
 

@@ -16,7 +16,7 @@
     "format": "eslint --cache --cache-location ./node_modules/.cache/eslint --fix .",
     "generate:css": "tailwindcss -o ./app/styles/tailwind.css",
     "lint": "eslint --cache --cache-location ./node_modules/.cache/eslint .",
-    "setup": "prisma generate && dotenv -e env/.env.production prisma migrate deploy && prisma db seed",
+    "setup": "prisma generate && dotenv -e env/.env.production prisma migrate deploy && dotenv -e env/.env.production prisma db seed",
     "migrate": "prisma generate && dotenv -e env/.env.dev -- prisma migrate dev",
     "start": "dotenv -e env/.env.production node ./build/server.js",
     "start:mocks": "dotenv -e env/.env.production node --require ./mocks --require dotenv/config ./build/server.js",
