@@ -15,8 +15,12 @@ npx create-remix@latest --template remix-run/blues-stack
 3. Delete FLY, use Firebase for deployment
 4. Adjust dockerfile accordingly
 5. Code formatting with ESlint and Prettier (Husky)
-6. Delete tailwind CSS
-7. Use Firebase auth for authentication for me
+6. Use dotenv instead of cross env (dev steps)
+7. Delete tailwind CSS
+8. Use Firebase auth for authentication for me
+9. Uninstall `bcryptjs`
+10. Install `framer-motion`
+11. Uninstall `express`?
 
 ## What's in the stack
 
