@@ -1,13 +1,4 @@
-# Personal Website
-
-## ToDo
-
-- Prettier
-- ESLint
-- ShadCN UI
-- Import path aliases
-
-## Astro Starter Kit: Blog
+# Astro Starter Kit: Blog
 
 ```sh
 pnpm create astro@latest -- --template blog
@@ -16,6 +7,7 @@ pnpm create astro@latest -- --template blog
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/blog)
 [![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/blog)
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/blog/devcontainer.json)
+
 
 Features:
 
@@ -26,7 +18,7 @@ Features:
 - ✅ RSS Feed support
 - ✅ Markdown & MDX support
 
-### 🚀 Project Structure
+## 🚀 Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
 
@@ -51,7 +43,7 @@ The `src/content/` directory contains "collections" of related Markdown and MDX 
 
 Any static assets, like images, can be placed in the `public/` directory.
 
-### 🧞 Commands
+## 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:
 
@@ -64,6 +56,10 @@ All commands are run from the root of the project, from a terminal:
 | `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `pnpm astro -- --help` | Get help using the Astro CLI                     |
 
+## 👀 Want to learn more?
+
+Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
 ## Credit
 
-This project was initially built using the "Astro Starter Kit: Blog". Its theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
+This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
