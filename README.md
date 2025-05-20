@@ -5,6 +5,7 @@
 - Prettier
 - ESLint
 - ShadCN UI
+- lint-staged (Husky)
 - Import path aliases
 
 ## Astro Starter Kit: Blog

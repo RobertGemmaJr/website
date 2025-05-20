@@ -9,7 +9,9 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "typecheck": "tsc -b"
+    "typecheck": "tsc -b",
+    "format": "prettier . --write",
+    "prepare": "husky"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.2.6",
@@ -21,5 +23,14 @@
     "astro": "^5.7.13",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^16.0.0",
+    "prettier": "3.5.3",
+    "prettier-plugin-astro": "^0.14.1"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   }
 }
