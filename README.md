@@ -1,5 +1,12 @@
 # Personal Website
 
+## ToDo
+
+- [ ] Prettier
+- [ ] ESLint
+- [ ] ShadCN UI
+- [ ] Import path aliases
+
 ## Astro Starter Kit: Blog
 
 ```sh
