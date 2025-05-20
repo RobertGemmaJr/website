@@ -1,3 +1,11 @@
-# Ignore artifacts:
-build
-coverage
+# Build artifacts:
+node_modules
+dist
+
+# Miscellaneous
+.vscode
+.env
+.cache
+tsconfig.tsbuildinfo
+.eslintcache
+.husky
